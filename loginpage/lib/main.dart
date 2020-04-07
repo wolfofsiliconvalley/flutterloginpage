@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' show Animation, AnimationController, AssetImage, BlendMode, BoxFit, Brightness, BuildContext, Colors, Column, Container, CurvedAnimation, Curves, EdgeInsets, FlutterLogo, Form, Icon, Image, InputDecoration, InputDecorationTheme, MainAxisAlignment, MaterialApp, MaterialButton, Padding, Scaffold, SingleTickerProviderStateMixin, Stack, StackFit, State, StatefulWidget, StatelessWidget, TextFormField, TextInputType, TextStyle, Theme, ThemeData, Widget, runApp;
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 void main() => runApp(new MyApp());
 
@@ -43,7 +43,7 @@ class LoginPageState extends State<LoginPage>
           backgroundColor: Colors.white,
           body: new Stack(fit: StackFit.expand, children: <Widget>[
             new Image(
-              image: new AssetImage("assets/batman.jpeg"),
+              image: new AssetImage("assets/batman.jpg"),
               fit: BoxFit.cover,
               colorBlendMode: BlendMode.darken,
               color: Colors.black87,
